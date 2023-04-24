@@ -19,18 +19,19 @@
                     <a class="font-bold uppercase text-gray-600 text-sm" href="/crear-cuenta">Crear cuenta</a>
                 </nav>
             </div>
-            <main class="container mx-auto mt-10">
+        </header>
+        <main class="container mx-auto mt-10">
                 <h2 class="font-black text-center text-3xl mb-10">
                     @yield('titulo')
                 </h2>
                 @yield('contenido')
-            </main>
-            <footer class="text-center p-5 text-gray-500 font-bold uppercase">
+        </main>
+        <footer class="mt-10 text-center p-5 text-gray-500 font-bold uppercase">
                 Alvagram - Todos los derechos reservados 
                 {{-- @php echo date ('Y')  @endphp --}}
                 {{ now()->year }}
 
-            </footer>
-        </header>
+        </footer>
+        
     </body>
 </html>

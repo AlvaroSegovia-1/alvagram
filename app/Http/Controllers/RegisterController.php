@@ -11,9 +11,9 @@ class RegisterController extends Controller
         return view('auth.register');
     }
 
-    public function autenticar() 
+    public function store() 
     {
-        return view('auth.register');
+        dd('Post...');
     }
 
 }

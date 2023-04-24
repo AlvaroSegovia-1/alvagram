@@ -21,7 +21,7 @@ Route::get('/', function () {
 Route::get('/crear-cuenta', [RegisterController::class, 'index']
 );
 
-Route::get('/autenticar', [RegisterController::class, 'autenticar']
+Route::post('/crear-cuenta', [RegisterController::class, 'store']
 );
 
 
